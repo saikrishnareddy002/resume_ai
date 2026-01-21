@@ -1,0 +1,7 @@
+#!/bin/bash
+
+streamlit run src/resume_suggestions.py \
+  --server.port=8000 \
+  --server.address=0.0.0.0 \
+  --server.enableCORS=false \
+  --server.enableXsrfProtection=false
